@@ -49,17 +49,17 @@ public class Person {
         private String description;
         private int age;
 
-        public Builder withAddress(final String address) {
+        public Buildable withAddress(final String address) {
             this.address = address;
             return this;
         }
 
-        public Builder withDescription(final String description) {
+        public Buildable withDescription(final String description) {
             this.description = description;
             return this;
         }
 
-        public Builder withAge(final int age) {
+        public Buildable withAge(final int age) {
             this.age = age;
             return this;
         }
